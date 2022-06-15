@@ -1,0 +1,18 @@
+--- 
+phases: 
+  build: 
+    commands: 
+      - "echo Build started on `date`"
+      - "echo Building the Docker image..."
+      - "docker build -t iltonjunix/projecttest ."
+      - "docker tag iltonjunix/teste iltonjunix/projecttest:latest"
+  post_build: 
+    commands: 
+      - "echo Build completed on `date`"
+      - "echo Pushing the Docker image..."
+      - "docker push iltonjunix/projecttest:latest"
+  pre_build: 
+    commands: 
+      - "echo Logging in to Docker Hub..."
+      - "docker login --username=\"iltonjunix\" --password=\"KD2XgtzRK6\""
+version: 0.1
