@@ -1,0 +1,11 @@
+version: 0.0
+os: linux
+hooks:
+  ApplicationStop:
+    - location: scripts/stop.sh
+      timeout: 30
+      runas: ubuntu
+  ApplicationStart:
+    - location: scripts/start.sh
+      timeout: 30
+      runas: ubuntu
