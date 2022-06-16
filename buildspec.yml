@@ -5,7 +5,7 @@ phases:
       - "echo Build started on `date`"
       - "echo Building the Docker image..."
       - "docker build -t iltonjunix/projecttest ."
-      - "docker tag iltonjunix/teste iltonjunix/projecttest:latest"
+      - "docker tag iltonjunix/projecttest iltonjunix/projecttest:latest"
   post_build: 
     commands: 
       - "echo Build completed on `date`"
