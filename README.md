@@ -1,6 +1,6 @@
 <h1 align="center"> ProjectTest-IA </h1>
 
-<img src="https://www.atlantico.com.br/wp-content/themes/atlantico/img/logo.png" width="350" alt="" />
+<img src="https://www.atlantico.com.br/wp-content/themes/atlantico/img/logo.png" width="350" alt="" align="center"/>
 
 ## ⭐ Features
 
