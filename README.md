@@ -35,3 +35,11 @@ docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name upti
 ```terraform init && terraform plan```
 * Check if everything is ok and Execute;
 ```terraform apply```
+* A new instance will be created;
+
+### AWS CodeBuild
+* Acess...
+
+### Acessing Monitoring
+
+* [Link local do monitoramento](http://127.0.0.1:3001/status/ia)
