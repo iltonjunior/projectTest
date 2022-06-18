@@ -18,8 +18,20 @@
 ## 🔧 Setup
 * Rules and configurations are required in the AWS Cloud environment;
 * [Install and configure terraform using the hashcorp manual](https://learn.hashicorp.com/tutorials/terraform/install-cli)
-* 
 * Install and configure UptimeKuma;
 ```bash
 docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name uptime-kuma louislam/uptime-kuma:1
 ```
+* After cloning the project modify the terraform/provider.tf file;
+```bash
+ provider "aws" {
+    region = "YOUR REGION"
+    access_key = "ACCESS KEY YOUR USER"
+    secret_key = "SECRET KEY YOUR USER"
+}
+```
+* Change terraform/main.tf file according to your environment;
+* Execute: 
+```terraform init && terraform plan```
+* Check if everything is ok and Execute;
+```terraform apply```
