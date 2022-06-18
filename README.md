@@ -1,5 +1,7 @@
 <h1 align="center"> ProjectTest-IA </h1>
 
+<img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1413230067862355973%2FcAOV9v6P_400x400.jpg&imgrefurl=https%3A%2F%2Fmobile.twitter.com%2Fiatlantico&tbnid=qA3UDMyCzSl8qM&vet=12ahUKEwje8M63lbf4AhVlN7kGHaCsA4sQMygCegUIARCsAQ..i&docid=RQ6-VpjWlaf3KM&w=400&h=400&q=instituto%20atlantico&client=ubuntu&ved=2ahUKEwje8M63lbf4AhVlN7kGHaCsA4sQMygCegUIARCsAQ" width="700" alt="" />
+
 ## ⭐ Features
 
 * Project AWS EC2 Docker Apache Hello World
@@ -15,7 +17,7 @@
  
 ## 🔧 Setup
 * Rules and configurations are required in the AWS Cloud environment;
-* [Install and configure terraform using the hashcorp manual] (https://learn.hashicorp.com/tutorials/terraform/install-cli);
+* [Install and configure terraform using the hashcorp manual](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 * 
 * Install and configure UptimeKuma;
 ```bash
