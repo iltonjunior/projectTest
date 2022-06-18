@@ -1,7 +1,5 @@
 <h1 align="center"> ProjectTest-IA </h1>
 
-<img align="center" src="https://www.atlantico.com.br/wp-content/themes/atlantico/img/logo.png" width="350" alt=""/>
-
 ## ⭐ Features
 
 * Project AWS EC2 Docker Apache Hello World
@@ -36,9 +34,9 @@ docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name upti
 * Check if everything is ok and Execute;
 ```terraform apply```
 * A new instance will be created;
-
+* [Install CodeAgent in instance](https://docs.aws.amazon.com/codedeploy/latest/userguide/codedeploy-agent-operations-install-ubuntu.html)
 ### AWS CodeBuild
-* Acess...
+* [Configuring AWS CodeBuild](https://docs.aws.amazon.com/codebuild/latest/userguide/how-to-integrate-config.html)
 
 ### Acessing Monitoring
 
