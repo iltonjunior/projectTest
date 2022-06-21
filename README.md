@@ -8,7 +8,7 @@
 * AWS CloudWatch
 * [Monitoring using UptimeKuma for HTTP(s)] all credits to (https://github.com/louislam/uptime-kuma.git)
 
-## 🔧 My Scenary
+## 🔧 My Environment
 * Ubuntu x86_64 (20.04 LTS);
 * AWS Account with IAM User;
 * Local Docker Runtime;
