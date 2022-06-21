@@ -4,8 +4,8 @@ hooks:
   ApplicationStop:
     - location: scripts/stop.sh
       timeout: 30
-      runas: ubuntu
+      runas: root
   ApplicationStart:
     - location: scripts/start.sh
       timeout: 30
-      runas: ubuntu
+      runas: root
