@@ -37,7 +37,7 @@ docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name upti
 * [Install CodeAgent in instance](https://docs.aws.amazon.com/codedeploy/latest/userguide/codedeploy-agent-operations-install-ubuntu.html)
 ### AWS CodeBuild
 * [Configuring AWS CodeBuild](https://docs.aws.amazon.com/codebuild/latest/userguide/how-to-integrate-config.html)
-
+* [Necessary to enable codedeploy to have access to the instance](https://docs.aws.amazon.com/codedeploy/latest/userguide/instances-ec2-configure.html)
 ### Acessing Monitoring
 
 * [Link local do monitoramento](http://127.0.0.1:3001/status/ia)
